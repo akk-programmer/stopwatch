@@ -1,0 +1,67 @@
+* {
+    font-family: tahoma;
+    user-select: none;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.item {
+    font-size: 15vw;
+    margin: 20px;
+}
+
+#start {
+    font-size: 20px;
+    border: none;
+    width: 15vw;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+#start:focus {
+    outline: none;
+}
+
+.grey {
+    background-color: gainsboro;
+}
+
+.grey:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.582);
+}
+
+.red:hover {
+    background-color: rgba(255, 0, 0, 0.898);
+}
+
+.green {
+    background-color: rgba(172, 255, 47, 0.542);
+}
+
+.green:hover {
+    background-color: rgb(172, 255, 47);
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 10px;
+    font-size: 2vw;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
